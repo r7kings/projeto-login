@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/midiaquery.css">
 </head>
@@ -17,11 +18,22 @@
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a) novamente. Faça login para acessar sua conta.</p>
-                <form action="cadastro.php" method="post">
-
+                <form action="login.php" method="post" autocomplete="on">
+                    <div class="campo">
+                        <span id="login" class="material-symbols-outlined">person</span>
+                        <input type="email" name="login" id="login" maxlength="30" required autocomplete="email" placeholder="E-mail">
+                        <label for="login">Login</label>
+                    </div>
+                    <div class="campo">
+                        <span id="senha" class="material-symbols-outlined">vpn_key</span>
+                        <input type="password" name="senha" id="senha" minlength="8" maxlength="30" required autocomplete="current-password" placeholder="Senha">
+                        <label for="senha">Senha</label>
+                    </div>
+                    <input type="submit" value="Entrar">
+                    <a  class="botao" href="#">Esqueci a senha</a>
+                    <p>É novo por aqui?</p>
+                    <a class="botao" href="#">Cadastre-se</a>
                 </form>
-                <p>É novo por aqui?</p>
-                <a href="#">Cadastre-se</a>
             </div>
         </section>
     </main>
