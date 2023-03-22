@@ -65,7 +65,7 @@ div.campo {
     height: 50px;
     background-color: var(--cor01);
     padding: 3px;
-    margin: 5px 0px;
+    margin: 8px 0px;
     border-radius: 8px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
 }
@@ -121,7 +121,7 @@ form > a.botao {
     border: 1px solid white;
     background-color: #c65dfe3a;
     border-radius: 8px;
-    margin-top: 8px;
+    margin-top: 10px;
     padding-top: 8px;
     color: white;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.274);
