@@ -40,7 +40,7 @@ div#imagem {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: right top;
-    height: 32%;
+    height: 31%;
     display: block;
 
 }
@@ -56,7 +56,7 @@ div#formulario h1 {
 
 div#formulario p {
     font-size: 0.9em;
-    margin-top: 5px;
+    margin-top: 7px;
 }
 
 div.campo {
